@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "forever": "nodemon -x 'node scraper.js || (sleep 10; touch scraper.js)'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.6.0",
+    "puppeteer-firefox": "^0.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "set-interval-async": "^2.0.3",
+    "whatsapp-web.js": "^1.16.6"
+  }
+}
